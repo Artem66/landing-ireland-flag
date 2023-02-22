@@ -43,6 +43,9 @@ const Carousel = () => {
 
   return (
     <div className="carousel">
+      <div className="header">
+        <h1 className="header--title">Welcome to the Ireland flag Institute</h1>
+      </div>
       {cards.map((item, i) => {
         const indexLeft = mod(index - 1, cards.length);
         const indexRight = mod(index + 1, cards.length);

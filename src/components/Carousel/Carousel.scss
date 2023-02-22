@@ -121,3 +121,17 @@
 .nav:hover {
   text-shadow: 1px 1px 10px #fff;
 }
+
+.header {
+  padding-top: 5%;
+
+  &--title {
+    position: relative;
+    margin: 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 21px;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 100;
+  }
+}
