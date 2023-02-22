@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/landing-ireland-flag/static/css/main.ceeff501.css",
-    "main.js": "/landing-ireland-flag/static/js/main.44d2bcc0.js",
+    "main.js": "/landing-ireland-flag/static/js/main.276c33a1.js",
     "static/js/787.c3238c71.chunk.js": "/landing-ireland-flag/static/js/787.c3238c71.chunk.js",
-    "static/media/slider-2.png": "/landing-ireland-flag/static/media/slider-2.4211e72e7b2fad32b2c2.png",
-    "static/media/slider-1.png": "/landing-ireland-flag/static/media/slider-1.0918210c4ca2aaa36cec.png",
+    "static/media/slider-2.webp": "/landing-ireland-flag/static/media/slider-2.943597195d85b49b2cbf.webp",
     "static/media/bg.webp": "/landing-ireland-flag/static/media/bg.f9795c125d121e05a245.webp",
-    "static/media/slider-3.png": "/landing-ireland-flag/static/media/slider-3.685886fd7fbbe2ad3e1e.png",
+    "static/media/slider-1.webp": "/landing-ireland-flag/static/media/slider-1.d96c68d0f760b66703e6.webp",
+    "static/media/slider-3.webp": "/landing-ireland-flag/static/media/slider-3.fd7f06a034ce5c4bd5b3.webp",
     "index.html": "/landing-ireland-flag/index.html",
     "static/media/arrow-left.svg": "/landing-ireland-flag/static/media/arrow-left.66670263d2c06d5a211d560306b588fb.svg",
     "static/media/arrow-right.svg": "/landing-ireland-flag/static/media/arrow-right.e4f671f320601cc28f7400cf30473c28.svg",
     "main.ceeff501.css.map": "/landing-ireland-flag/static/css/main.ceeff501.css.map",
-    "main.44d2bcc0.js.map": "/landing-ireland-flag/static/js/main.44d2bcc0.js.map",
+    "main.276c33a1.js.map": "/landing-ireland-flag/static/js/main.276c33a1.js.map",
     "787.c3238c71.chunk.js.map": "/landing-ireland-flag/static/js/787.c3238c71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ceeff501.css",
-    "static/js/main.44d2bcc0.js"
+    "static/js/main.276c33a1.js"
   ]
 }
