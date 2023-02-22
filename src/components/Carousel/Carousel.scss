@@ -47,10 +47,11 @@
       margin: 0;
       font-style: normal;
       font-weight: 800;
-      font-size: 24px;
+      font-size: 21px;
       line-height: 115.18%;
       margin-top: 15px;
       margin-bottom: 15px;
+      text-transform: uppercase;
     }
 
     &--subtitle {
@@ -80,9 +81,21 @@
 
   &--left > .card--caption,
   &--right > .card--caption {
-    display: none;
+    background-color: transparent;
   }
 
+  &--left > .card--caption > .card--caption--title,
+  &--right > .card--caption > .card--caption--title {
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    width: 60%;
+  }
+
+  &--left > .card--caption > .card--caption--subtitle,
+  &--right > .card--caption > .card--caption--subtitle {
+    display: none;
+  }
 }
 
 .nav {
