@@ -84,7 +84,7 @@ const Carousel = () => {
         onClick={() => setIndex(mod(index - 1, cards.length) % cards.length)}
         className="nav nav--prev"
       >
-        <img src={arrowLeft} alt="" className="nav--icon" />
+        <img src={arrowLeft} alt="arrow left" className="nav--icon" />
         Previous
       </span>
       <span
@@ -92,7 +92,7 @@ const Carousel = () => {
         className="nav nav--next"
       >
         Next
-        <img src={arrowRight} alt="" className="nav--icon" />
+        <img src={arrowRight} alt="arrow right" className="nav--icon" />
       </span>
     </div>
   );
