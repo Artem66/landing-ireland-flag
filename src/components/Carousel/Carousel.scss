@@ -1,0 +1,127 @@
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 436px;
+  height: 436px;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 0;
+  opacity: 0;
+  border-radius: 50%;
+
+  transition: 500ms;
+
+  &--active {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 99;
+    border-radius: 50%;
+    border: 50px solid rgba(228, 111, 37, 0.3);
+  }
+
+  &--left {
+    transform: translateX(-100%) scale(0.6);
+    transition: 500ms;
+    opacity: 1;
+  }
+
+  &--right {
+    transform: translateX(100%) scale(0.6);
+    transition: 500ms;
+    opacity: 1;
+  }
+
+  &--image {
+    max-width: 100%;
+    border-radius: 50%;
+    border:3px solid #E46F25
+  }
+
+  &--left > .card--caption,
+  &--right > .card--caption {
+    display: none;
+  }
+
+  &--caption {
+    position: absolute;
+    top: 221px;
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+    border-bottom: 0;
+    left: 3px;
+    background-color: rgba(228, 111, 37, 0.94);
+    box-shadow: 0px 185.191px 601.871px rgba(0, 0, 0, 0.17);
+    color: #fff;
+
+    &--title {
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      margin: 0;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 115.18%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    &--subtitle {
+      width: 318px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+  }
+
+  
+
+}
+
+.nav {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  position: absolute;
+  font-size: 20px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  top: 50%;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 140%;
+
+  text-transform: uppercase;
+
+  &--prev {
+    left: 0; 
+  }
+
+  &--next {
+    right: 0;
+  }
+
+  &--icon {
+    background-color: #E46F25;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.nav:hover {
+  text-shadow: 1px 1px 10px #fff;
+}
