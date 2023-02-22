@@ -2,9 +2,9 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import './Carousel.scss';
 import { useState } from 'react';
-import slider1 from './img/slider-1.png';
-import slider2 from './img/slider-2.png';
-import slider3 from './img/slider-3.png';
+import slider1 from './img/slider-1.webp';
+import slider2 from './img/slider-2.webp';
+import slider3 from './img/slider-3.webp';
 import arrowRight from './img/arrow-right.svg';
 import arrowLeft from './img/arrow-left.svg';
 
@@ -68,7 +68,7 @@ const Carousel = () => {
               <img
                 className="card--image"
                 src={item.image}
-                alt="Comic"
+                alt={item.title}
               />
               <div className="card--caption">
                 <h3 className="card--caption--title">{item.title}</h3>
